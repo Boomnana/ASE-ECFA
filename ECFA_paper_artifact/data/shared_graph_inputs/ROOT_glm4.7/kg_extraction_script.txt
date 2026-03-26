@@ -1,0 +1,16 @@
+# Windows PowerShell template
+
+$outputDir = "C:/path/to/ROOT_glm4.7/jayme"
+$bucketPath   = "$outputDir/semantic_buckets.json"
+$pairsPath    = "$outputDir/alignment_pairs.json"
+$clustersPath = "$outputDir/aligned_clusters.xlsx"
+
+Set-Location "C:/path/to/ECDA_v1.0"
+$env:PYTHONPATH = "."
+
+python src/kg_consturcution/Step2_synonym_alignment.py `
+  --llm-config "C:/path/to/ECDA_v1.0/LLM-config.yaml" `
+  --output-buckets "$bucketPath" `
+  --output-pairs "$pairsPath" `
+  --output-clusters "$clustersPath" `
+  --input-file "C:/path/to/ROOT_glm4.7/jayme/triples.xlsx"

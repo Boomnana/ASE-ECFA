@@ -1,0 +1,36 @@
+{
+  "n_rows_raw": 5677,
+  "n_rows_kept": 2504,
+  "keep_rate": 0.4410780341729787,
+  "n_rows_dropped": 3173,
+  "n_apps": 6,
+  "n_issue_groups_raw": 900,
+  "n_issue_groups_kept": 824,
+  "dropped_by_reason": {
+    "broad_or_noisy_issue_group": 2318,
+    "short_text_lt_16": 646,
+    "no_graph_anchor": 175,
+    "exact_text_dup_in_issue": 34
+  },
+  "raw_issue_size": {
+    "median": 2.0,
+    "p90": 13.0,
+    "max": 240
+  },
+  "kept_issue_size": {
+    "median": 2.0,
+    "p90": 7.0,
+    "max": 24
+  },
+  "config": {
+    "min_text_len": 16,
+    "require_anchor": true,
+    "dedup_exact": true,
+    "drop_broad_issue": true,
+    "broad_issue_size": 12,
+    "broad_other_tokens": 2,
+    "max_issue_size": 25
+  },
+  "xlsx": "C:\\Users\\27826\\Desktop\\workspace\\0 20250520 知识图谱+聚类\\TOSEM\\实验相关\\RQ3跨簇缺陷关联\\RQ3Script\\input\\RQ3数据集_已标注.xlsx",
+  "input_root": "input/ROOT_glm4.7"
+}

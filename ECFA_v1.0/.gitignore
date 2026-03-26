@@ -1,0 +1,8 @@
+/input
+/src/kg_consturcution/output
+/zhipu_cache.pkl
+/src/kg_consturcution/graph_output
+/src/graph_rag_rca/rag_output
+/src/defect_rag/defect_output
+/src/defect_subgraph_cover/brief_json_test
+/shared_output

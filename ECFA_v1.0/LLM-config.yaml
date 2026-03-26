@@ -1,0 +1,8 @@
+model:
+  name: glm-4.7
+  key: REDACTED_API_KEY
+  temperature: 0.0
+  max_tokens: 10000
+  concurrency: 1
+  timeout: 60
+  max_retries: 2
